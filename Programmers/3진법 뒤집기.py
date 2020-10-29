@@ -5,6 +5,8 @@
 
 제한사항
 n은 1 이상 100,000,000 이하인 자연수입니다.
+
+link : https://programmers.co.kr/learn/courses/30/lessons/68935
 '''
 
 def solution(n):
