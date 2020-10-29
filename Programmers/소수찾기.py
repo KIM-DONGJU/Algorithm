@@ -7,6 +7,7 @@
 
 제한 조건
 n은 2이상 1000000이하의 자연수입니다.
+link : https://programmers.co.kr/learn/courses/30/lessons/12921
 '''
 
 ### 에라토스테네스의 체를 이용 ###
