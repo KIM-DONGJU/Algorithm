@@ -30,7 +30,7 @@ def solution(N, number):
         for l, r in zip(range(1, i+1), range(i, 0, -1)) :
             if l > r or l+r > 8 :
                 break
-            # 문제의 범위가 N을 8번 사용할때까지 이기 때문에 그게 넘어가거나,
+            # 문제의 범위가 N을 8번 사용할때까지 이기 때문에 그게 넘어가거나
             # l > r이 될 경우 (1,3) (2,2), (3,1)과 같이 (1,3), (3,1)이 중복되기 때문에 break
 
             if number in set_num[l] :
