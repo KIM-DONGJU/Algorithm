@@ -26,4 +26,4 @@ def solution(n):
             return p
 
         # p를 2진수로 변환했을때 1의 개수가 answer과 같을때까지 p를 증가시키며 반복
-        p += 1
+        p += 1  
