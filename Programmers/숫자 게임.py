@@ -18,7 +18,7 @@ def solution(A, B):
     A = deque(sorted(A))
     B = deque(sorted(B))
     score = 0
-
+ 
     while A:
         if A[0] < B[0] :
             A.popleft()
